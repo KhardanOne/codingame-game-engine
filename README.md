@@ -1,6 +1,10 @@
 # About
 
-This is the Game Engine Toolkit of CodinGame. With it one can develop a game for the [CodinGame platform](https://www.codingame.com).
+
+I created this fork to remove the time limitations, so that player agents could be debugged locally. [See the original repo here.](https://github.com/CodinGame/SpringChallenge2022)
+
+It is in early experimentational state.
+
 
 This engine is meant to be imported with maven from a project such as [the Game Engine skeleton](https://github.com/CodinGame/game-skeleton).
 
