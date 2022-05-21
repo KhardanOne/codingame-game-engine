@@ -4,24 +4,24 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.codingame</groupId>
+		<groupId>khardan.dev</groupId>
 		<artifactId>gameengine</artifactId>
 		<version>master-SNAPSHOT</version>
 	</parent>
 
-	<groupId>com.codingame.gameengine</groupId>
+	<groupId>khardan.dev.gameengine</groupId>
 	<artifactId>runner</artifactId>
 	<name>CodinGame Game Engine Runner</name>
 	<description>Runner / Testbed to locally run Games created using the CodinGame engine toolkit.</description>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.codingame.gameengine</groupId>
+			<groupId>khardan.dev.gameengine</groupId>
 			<artifactId>core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.codingame.gameengine</groupId>
+			<groupId>khardan.dev.gameengine</groupId>
 			<artifactId>module-entities</artifactId>
 			<version>${project.version}</version>
 		</dependency>

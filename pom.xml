@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.codingame</groupId>
+  <groupId>khardan.dev</groupId>
   <artifactId>gameengine</artifactId>
   <version>master-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -34,16 +34,16 @@
   </licenses>
 
   <scm>
-    <connection>https://github.com/CodinGame/codingame-game-engine.git</connection>
-    <developerConnection>https://github.com/CodinGame/codingame-game-engine.git</developerConnection>
-    <url>https://github.com/CodinGame/codingame-game-engine</url>
+    <connection>https://github.com/KhardanOne/codingame-game-engine.git</connection>
+    <developerConnection>https://github.com/KhardanOne/codingame-game-engine.git</developerConnection>
+    <url>https://github.com/KhardanOne/codingame-game-engine</url>
   </scm>
 
   <developers>
     <developer>
-      <email>developers@codingame.com</email>
-      <name>The CodinGame Team</name>
-      <url>https://github.com/CodinGame</url>
+      <email>khardan.dev@google.com</email>
+      <name>Khardan.Dev</name>
+      <url>https://github.com/KhardanOne</url>
     </developer>
   </developers>
 
