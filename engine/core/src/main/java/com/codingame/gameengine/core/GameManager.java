@@ -38,12 +38,12 @@ abstract public class GameManager<T extends AbstractPlayer> {
     private static final int GAME_DURATION_HARD_QUOTA = Integer.MAX_VALUE;
     private static final int GAME_DURATION_SOFT_QUOTA = Integer.MAX_VALUE;
     private static final int MAX_TURN_TIME = GAME_DURATION_SOFT_QUOTA;
-    private static final int MIN_TURN_TIME = Integer.MAX_VALUE;
+    private static final int MIN_TURN_TIME = 50;
 
     protected List<T> players;
     private int maxTurns = 200;
-    private int turnMaxTime = 50;
-    private int firstTurnMaxTime = 1000;
+    private int turnMaxTime = Integer.MAX_VALUE;
+    private int firstTurnMaxTime = Integer.MAX_VALUE;
     private Integer turn = null;
     private int frame = 0;
     private boolean gameEnd = false;
@@ -60,7 +60,7 @@ abstract public class GameManager<T extends AbstractPlayer> {
 
     private JsonObject currentViewData, prevViewData;
 
-    private int frameDuration = 1000;
+    private int frameDuration = Integer.MAX_VALUE;
 
     private JsonObject globalViewData = new JsonObject();
 
