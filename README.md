@@ -51,4 +51,4 @@ Inside the game's `pom.xml` file's `dependencies` section replace all `com.codin
 </dependencies>
 ```
 
-For an example see [my other repository about how to modify a CG game to debug agents](https://github.com/KhardanOne/CG2022Spring).
+For an example see [my other repository about how to modify a CG game to debug agents](https://github.com/KhardanOne/SpringChallenge2022).
